@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Forms in HTML</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h1>Personal details form</h1>
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Name</label><br>
+                <input type="text" id="name"><br>
+                <label for="email">Email</label><br>
+                <input type="email" id="email"><br>
+                <label for="contact-number">Contact Number</label><br>
+                <input type="password" id="contact-number"><br>
+                <label for="address">Address</label><br>
+                <input type="text" id="address"><br>
+                <label>Gender</label><br>
+                <input type="radio" id="Male" name="gender" value="Male">Male<br>
+                <input type="radio" id="Female" name="gender" value="Female">Female<br>
+                <label>Role</label><br>
+            <input type="checkbox" id="Batsmen" name="role" value="Batsmen">Batsmen<br>
+            <input type="checkbox" id="Bowler" name="role" value="Bowler">Bowler<br>
+            <input type="checkbox" id="All-Rounder" name="role" value="All-Rounder">All-Rounder<br>
+            <input type="checkbox" id="Wicket-Keeper" name="role" value="Wicket-Keeper">Wicket-Keeper<br>
+            <label>Choose Batting style</label><br>
+            <select id="style" name="style">
+                <option value="right-handed">Right-handed</option>
+                <option value="left-handed">Left-handed</option>
+            </select><br>
+            <label>Choose Bowling style</label><br>
+            <select id="bowling-style" name="bowling-style">
+                <option value="right-arm fast">Right-arm fast</option>
+                <option value="right-arm medium">Right-arm medium</option>
+                <option value="right-arm off-spin">Right-arm off-spin</option>
+                <option value="right-arm leg-spin">Right-arm leg-spin</option>
+                <option value="left-arm fast">Left-arm fast</option>
+                <option value="left-arm medium">Left-arm medium</option>
+                <option value="left-arm off-spin">Left-arm off-spin</option>
+                <option value="left-arm leg-spin">Left-arm leg-spin</option>
+                <option value="Right-arm fast-medium">Right-arm fast-medium</option>
+                <option value="Left-arm fast-medium">Left-arm fast-medium</option>
+            </select>
+            <input type="submit" value="Submit"><br>
+            </fieldset>
+        </form>
+    </body>
+</html>
